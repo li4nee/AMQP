@@ -1,0 +1,11 @@
+RULES TO MAKE TOPIC EXCHANGE ?
+
+TOPIC NAME = WORDS SEPARATED BY DOT .
+SINGLE WORD SEPARATED BY A DOT
+
+order.* -> order followed by a dot and then one word
+order.# -> order followed by a dot and then zero or more words
+
+Routing key should be at most 255 bytes long.
+
+TOPIC EXCHANGE ALSO SAID PATTERN MATCHING EXCHANGE
